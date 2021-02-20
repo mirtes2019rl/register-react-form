@@ -1,0 +1,15 @@
+.background{
+    background-color: #0048F2;
+    height: 100vh;
+    padding: 0 5% 0 0;
+    display: flex;
+}
+
+
+@media(max-width: 996px){
+    .background{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 0;
+    }
+}
